@@ -1,0 +1,31 @@
+.sobre {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+}
+
+.sobre-img {
+  width: 50%;
+  height: 100%;
+  background-image: url("../assets/img/sobre.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.sobre-container {
+  width: 50%;
+  height: 100%;
+
+  padding: 3em 3em;
+}
+
+.sobre .titulo {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.sobre .subtitulo {
+  margin-bottom: 1em;
+}

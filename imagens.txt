@@ -1,0 +1,4 @@
+Header - "https://pixabay.com/pt/photos/código-codificação-computador-dados-1839406/"
+Sobre - "https://www.pexels.com/pt-br/foto/pessoa-usando-ipad-35550/"
+Cursos - "https://www.pexels.com/pt-br/foto/engenheira-de-software-feminina-codificando-no-computador-3861972/"
+Footer - "https://pixabay.com/pt/photos/terra-internet-globalização-2254769/"

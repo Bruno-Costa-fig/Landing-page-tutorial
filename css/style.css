@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,700;0,800;1,100;1,600;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Variáveis CSS */
+:root {
+  --laranja: #FCA311;
+  --azul-marinho: #14213D;
+  --branco: #FFFFFF;
+  --cinza-claro: #E5E5E5;
+
+  --font-titulo: 2em;
+  --font-subtitulo: 1.3em;
+  --font-texto: 1em;
+}
+
+.titulo{
+  font-size: var(--font-titulo);
+  color: var(--azul-marinho);
+}
+
+.subtitulo{
+  font-size: var(--font-subtitulo);
+  color: var(--azul-marinho);
+}
+
+.texto {
+  font-size: var(--font-texto);
+  color: var(--azul-marinho);
+}
+
+.cor-laranja {
+  color: var(--laranja);
+}
+
+.cor-branca {
+  color: var(--branco);
+}
+
+.botao {
+  font-size: var(--font-subtitulo);
+  color: var(--branco);
+  background-color: var(--laranja);
+
+  margin-top: 2em;
+  padding: .5em 1em;
+  border: none;
+  border-radius: .3em;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.botao:hover{
+  color: var(--azul-marinho);
+  background-color: var(--branco);
+  border: 1px solid var(--laranja);
+}
